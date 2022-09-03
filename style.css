@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+body .toDoListInterface {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+body .toDoListInterface form {
+  display: flex;
+  margin: 1rem 1rem;
+}
+body .toDoListInterface form input {
+  border: 1px solid red;
+  border-radius: 5px;
+  transition: outline-color 0.1s;
+  outline-color: transparent;
+  font-size: 1.5rem;
+  width: 25rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+body .toDoListInterface form input:focus {
+  outline-color: red;
+  border-radius: 5px;
+}
+body .toDoListInterface form .addBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 1.3rem;
+  width: 4rem;
+}
+body .toDoListInterface form .addBtn:hover {
+  background-color: rgb(212, 0, 0);
+}
+body .toDoListInterface .toDoList .toDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: rgb(253, 199, 199);
+  padding: 1rem;
+  margin: 1rem;
+}
+body .toDoListInterface .toDoList .toDo p {
+  display: flex;
+  align-items: center;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+  max-width: 24.5rem;
+  margin: 0;
+}
+body .toDoListInterface .toDoList .toDo .deleteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(194, 0, 0);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+body .toDoListInterface .toDoList .toDo .deleteBtn:hover {
+  background-color: red;
+}
+body .toDoListInterface .toDoList .toDo .deleteBtn img {
+  width: 2rem;
+}/*# sourceMappingURL=style.css.map */
